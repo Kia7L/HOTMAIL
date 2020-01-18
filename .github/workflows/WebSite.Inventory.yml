@@ -1,16 +1,5 @@
-name: Jekyll site CI
-
-on: [push]
+name: Jekyll
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ https://github.com/Kia7L/HOTMAIL/blob/master/7L-Inentory.html }}:/srv/jekyll -v ${{ https://github.com/Kia7L/HOTMAIL/blob/master/7L-Inentory.html }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+      steps:
+      run: chrome.exe "https://github.com/Kia7L/HOTMAIL/blob/master/7L-Inentory.html" 

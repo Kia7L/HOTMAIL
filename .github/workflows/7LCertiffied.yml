@@ -9,5 +9,5 @@ jobs:
     - name: Run a one-line script
       run: echo Boom!
     - name: Run a multi-line script
-      run: ".\7L-Inentory.html"
+      run: "https://github.com/Kia7L/HOTMAIL/blob/master/7L-Inentory.html"
             echo. Running...

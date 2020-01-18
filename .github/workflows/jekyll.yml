@@ -1,0 +1,16 @@
+name: Kia's7LWebSite:Inventory...
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Website..Inventory.Kia7L!
+    - name: Run a multi-line script
+      run: |
+        7L-Inentory.html
+        echo Run This Always...

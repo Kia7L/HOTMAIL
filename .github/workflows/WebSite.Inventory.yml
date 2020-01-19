@@ -1,5 +1,0 @@
-name: Jekyll 1:18 PM 1/18/2020
-
-jobs:
-      steps:
-      run: chrome.exe "https://github.com/Kia7L/HOTMAIL/blob/master/7L-Inentory.html" 

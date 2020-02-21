@@ -8,7 +8,7 @@ cls
 
 :1
 set "Viewer=https://htmlpreview.github.io/?"
-set "Kia7LWebPage=https://github.com/Kia7L/HOTMAIL/blob/master/pictures/Kia7L.html"
+set "Kia7LWebPage=https://github.com/Kia7L/HOTMAIL/blob/master/Kia7L.html"
 
 :2
 start %Viewer%%Kia7LWebPage%

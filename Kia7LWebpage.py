@@ -4,7 +4,7 @@ from os import *
 from time import sleep
 Title=('title 7L.INVENTORY')
 os.system('Title')
-os.system("color 01")
+os.system("color 04")
 os.system("mode 40,5")
 cls = 'cls'
 os.system(cls)
